@@ -1,4 +1,5 @@
 import pygame
+#when this file is downloaded the user might need to pip install pygame
 import time
 import random
 pygame.font.init()
@@ -128,7 +129,7 @@ def options():
 
         WIN.fill("white")
 
-        Options_text = font.render("You can move the player using the arrow keys!", True, "Black")   #add difficulty sliders for bullet settings or amounts of bullets here
+        Options_text = font.render("You can move the player using the arrow keys!", True, "Black")
         Options_rect = Options_text.get_rect(center=(640, 260))
         WIN.blit(Options_text, Options_rect)
 
