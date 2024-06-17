@@ -24,6 +24,8 @@ pygame.display.set_caption("Game individual project Kian")
 
 BG = pygame.transform.scale(pygame.image.load("skybackground.png"), (Width, Height)) #this does not preserve aspect ratio 16:9
 
+#the file wont run in the web version of github because the paths to the png's are not the same 
+
 player_model = pygame.image.load("playership.png")
 player_model = pygame.transform.scale(player_model, (80, 120)) #values for scaling the player model
 
